@@ -1,4 +1,9 @@
+// Imports:
 import './output.css'
+
+// Firebase Imports:
+import './firebase.ts';
+
 
 function App() {
 
