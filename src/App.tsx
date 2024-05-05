@@ -26,7 +26,6 @@ function MainUI() {
   )
 }
 
-
 function NavUI() {
   return (
     <nav>
