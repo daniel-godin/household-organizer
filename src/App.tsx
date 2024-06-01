@@ -1,5 +1,6 @@
 // Imports:
 import './output.css'
+import { Button } from '@radix-ui/themes';
 
 // Firebase Imports:
 import './firebase.ts';
@@ -30,7 +31,9 @@ function NavUI() {
   return (
     <nav>
       <header>Household Organizer</header>
-      <a href=''>Log In / Sign Up (Profile Button If Logged In)</a>
+      <Button>Log In</Button>
+      <Button>Sign Up</Button>
+      <a href=''>(Profile Button If Logged In)</a>
     </nav>
   )
 }
