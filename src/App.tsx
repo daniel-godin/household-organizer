@@ -33,7 +33,7 @@ function NavUI() {
       <header>Household Organizer</header>
       <Button>Log In</Button>
       <Button>Sign Up</Button>
-      <a href=''>(Profile Button If Logged In)</a>
+      <a href='' style={{display: 'none'}}>(Profile Button If Logged In)</a>
     </nav>
   )
 }
