@@ -82,3 +82,9 @@ main {
   display: grid;
   justify-items: center;
 }
+
+.nav-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}

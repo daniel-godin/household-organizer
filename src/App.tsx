@@ -31,9 +31,11 @@ function NavUI() {
   return (
     <nav>
       <header>Household Organizer</header>
-      <Button>Log In</Button>
-      <Button>Sign Up</Button>
-      <a href='' style={{display: 'none'}}>(Profile Button If Logged In)</a>
+      <div className='nav-buttons'>
+        <Button>Log In</Button>
+        <Button>Sign Up</Button>
+        <a href='' style={{display: 'none'}}>(Profile Button If Logged In)</a>
+      </div>
     </nav>
   )
 }
